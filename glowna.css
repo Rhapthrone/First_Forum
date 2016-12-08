@@ -1,0 +1,89 @@
+body, html {
+	margin: 0;
+	padding: 0;
+}
+/*|||||||||||||||||||||||||||||||||||||||||NAGLOWEK|||||||||||||||||||||||||||||||||||||||*/
+section.oprawa {
+	background: linear-gradient(rgba(204, 255, 255, 0.1), rgba(204, 255, 255, 1));
+	width: 100%;
+	margin: 0;
+	padding:0;
+}
+section.oprawa > header {
+	width: 50%;
+	margin-left: 25%;
+}
+section.oprawa > header > ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	border-radius: 0 0 30px 30px;
+}
+section.oprawa > header > ul > li {
+	width: 33.333%;
+	height: 40px;
+	float: left;
+	text-align: center;
+}
+section.oprawa > header > ul > li > a {
+	display: block;
+	line-height: 40px;
+	height: 40px;
+	background-color: #33ff99;
+	text-decoration: none;
+	color: black;
+	font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
+	font-size: 20px;
+}
+section.oprawa > header > ul > li > a:hover {
+    background-color: rgba(51, 255, 153, 0.2);
+}
+/*|||||||||||||||||||||||||||||||||||||||||STOPKA|||||||||||||||||||||||||||||||||||||||||*/
+section.oprawa > footer {
+	width: 50%;
+	margin-left: 25%;
+	text-align: center;
+}
+/*|||||||||||||||||||||||||||||||||||||||||ZAWARTOSC||||||||||||||||||||||||||||||||||||||*/
+/*|||||||||||||||||||||||||||||||||||||||||TABELA|||||||||||||||||||||||||||||||||||||||||*/
+section.oprawa > section.zawartosc > table  {
+	margin-left: 12.5%;
+	width: 75%;
+	border: solid 0.5px black;
+	background-color: white;
+	border-collapse: collapse;
+}
+section.oprawa > section.zawartosc > table > tbody > tr > td {
+	border: solid 0.5px black;
+	margin: 0;
+	background-color: #ffb3ff;
+}
+section.oprawa > section.zawartosc > table > thead > tr > th {
+	border: solid 0.5px black;
+	margin: 0;
+}
+section.oprawa > section.zawartosc > table > thead {
+	margin: 0;
+	background-color: #ffcccc;
+}
+section.oprawa > section.zawartosc > table > tbody  {
+	background-color: #ffb3ff;
+}
+/*|||||||||||||||||||||||||||||||||||||||||FORMULARZ|||||||||||||||||||||||||||||||||||||||||*/
+section.oprawa > section.zawartosc > form > fieldset {
+	width: 50%;
+	margin-left: 25%;
+}
+section.oprawa > section.zawartosc > form > fieldset > input, label, textarea {
+	display: block;
+}
+section.oprawa > section.zawartosc > form > fieldset > #tworz {
+	margin-top: 10px;
+	margin-left: 140px;
+	height: 40px;
+	width: 80px;
+	border-radius: 5px;
+	background-color: white;
+	
+}
